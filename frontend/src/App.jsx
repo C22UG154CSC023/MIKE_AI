@@ -188,9 +188,7 @@ function App() {
 
     try {
 
-     const response = await fetch(
-  `${import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"}/api/chat`,
-
+    `${import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"}/api/chat`
         {
 
           method: "POST",
